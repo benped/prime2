@@ -1,0 +1,124 @@
+/*@import url('//fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=BioRhyme&display=swap');
+*/
+
+body {
+  font-family: 'Sora', sans-serif;
+  margin: 0px;
+}
+
+/*header + name*/
+h1 {
+  font-family: 'BioRhyme', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 120px;
+  color: rgba(0, 0, 0, 10);
+}
+
+h2 {
+  font-family: 'BioRhyme',serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Sora',sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+
+/* Class for Designer / job roles*/
+h5 {
+  font-family: 'BioRhyme',serif;
+  font-size: 40px;
+  color: white;
+}
+
+/*Role Subheadings*/
+h6 {
+  font-family: 'Sora',sans-serif;
+  font-size: 14px;
+  text-align: left;
+  margin: 0px;
+  font-weight: bold;
+}
+
+
+li {
+  font-size: 12px;
+  font-family: 'Sora',sans-serif;
+  line-height: 1.8;
+  /*letter-spacing: .8px;*/
+  font-weight: 500;
+  max-width: 600px;
+}
+
+p {
+  font-size: 12px;
+  font-family: 'Sora',sans-serif;
+  font-weight: 500;
+}
+
+img {
+  max-width:300px;
+  max-height:300px;
+  float: right;
+  padding: 30px;
+}
+
+div.row {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  height: 800px;
+  padding: 100px 0;
+  min-width: 100%;
+  background-image: linear-gradient(to bottom, white , pink);
+  padding-bottom: 600px;
+}
+
+
+.column-left {
+  flex: 2;
+  padding: 10px;
+  justify-content: center;
+}
+
+.column-right {
+  flex: 2;
+  padding: 10px;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.full {
+  background-image: linear-gradient(to top, pink, #ffc933 );
+}
+
+
+.name {
+  margin: 0px;
+  text-align: center;
+  background-color: pink;
+}
+
+.roles {
+
+  background-image: linear-gradient(to bottom, pink, #ffc933 );
+  padding: 200px 0;
+  background-color: white;
+  min-width: 100%;
+}
+
+.footer {
+  padding: 200px;
+  text-align: center;
+}
