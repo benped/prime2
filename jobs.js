@@ -1,4 +1,4 @@
-  var example = [" Woodworker", "Photographer", "Marketer", "Programmer?", "3D Modeler", "Data Analyst"];
+  var example = ["Designer","Woodworker", "Photographer", "Marketer", "Programmer?", "3D Modeler", "Data Analyst"];
 
   textSequence(0);
 
