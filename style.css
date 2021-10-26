@@ -63,10 +63,16 @@ p {
   font-weight: 500;
 }
 
-img {
+img.logo {
   max-width:300px;
   max-height:300px;
   float: right;
+  padding: 30px;
+}
+
+img {
+  max-height:300px;
+  float: center;
   padding: 30px;
 }
 
